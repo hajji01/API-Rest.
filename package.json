@@ -1,0 +1,27 @@
+{
+  "name": "rest_finale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src -e ts --exec ts-node src/main.ts",
+    "port": "ts-node src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/mysql": "^2.15.21",
+    "@types/password-hash": "^1.2.21",
+    "mysql2": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "password-hash": "^1.2.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
